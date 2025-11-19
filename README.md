@@ -48,3 +48,44 @@ Ensure you have the following installed on your machine:
 git clone [https://github.com/yourusername/study_buddy.git](https://github.com/yourusername/study_buddy.git)
 cd study_buddy
 ```
+### 2.Install Dependencies
+```bash
+flutter pub get
+```
+# 3. Platform-Specific Requirements
+
+## Linux (Desktop)
+Critical Step: You must install the SQLite shared library for the database to function.
+### Ubuntu/Debian:
+```bash
+sudo apt-get update
+sudo apt-get install libsqlite3-dev
+```
+### Fedora:
+```bash
+sudo dnf install libsqlite3-devel
+```
+### Arch/Manjaro:
+```bash
+sudo pacman -S sqlite
+```
+## Windows (Desktop)
+
+Ensure Visual Studio 2019 (or later) is installed with the "Desktop development with C++" workload.
+
+## Android
+Set up an Android Emulator via Android Studio or connect a physical device.
+
+## iOS
+Requires macOS with Xcode installed.
+
+
+# How to Run
+Run the following command in your terminal and chose your target device:
+
+```bash
+flutter run
+```
+# Project Structure
+# License
+This project is for educational purposes submitted to Multimedia University (MMU).
